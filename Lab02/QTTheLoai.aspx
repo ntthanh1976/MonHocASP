@@ -6,6 +6,7 @@
 <head runat="server">
     <title></title>
     <link href="css/bootstrap.min.css" rel="stylesheet" />
+
 </head>
 <body>
     <form id="form1" runat="server">
@@ -39,6 +40,7 @@
                 </Columns>
                 <HeaderStyle CssClass="alert alert-info" />
             </asp:GridView>
+            <asp:Button ID="Button1" runat="server" Text="Button" />
         </div>
     </form>
 </body>
